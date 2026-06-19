@@ -1,6 +1,9 @@
 # Striim:
 **Striim** is a **real-time data integration and streaming platform** used to move, process, and synchronize data between databases, applications, cloud platforms, and data warehouses with minimal latency.
 
+<img width="1167" height="538" alt="Image" src="https://github.com/user-attachments/assets/1f40d8e5-eba3-46e1-aaa1-e21abc8a7880" />
+
+
 ### What Striim Does
 * Captures data changes from source databases in real time (CDC - Change Data Capture)
 * Streams data continuously to target systems
@@ -162,7 +165,7 @@ INPUT FROM OracleStream;
 1. **Striim Platform** is installed on your hardware or deployed on a virtual machine in AWS, Azure, or Google Cloud Platform. You must configure and manage it yourself.
 2. **Striim Cloud** is a fully managed SaaS platform available on AWS, Azure, or Google Cloud Platform
 
-### Striim Platform vs Striim Cloud
+### Striim Platform vs Striim Cloud:
 
 | Feature                 | Striim Platform                                              | Striim Cloud                                                    |
 | ----------------------- | ------------------------------------------------------------ | --------------------------------------------------------------- |
@@ -206,8 +209,6 @@ So, think of it like:
 * **Striim Cloud = Managed Kubernetes service (GKE/EKS/AKS)**
 
 ---
-
-
 #### Q1: What is Striim?
 **Answer:**
 - Striim is a real-time data integration and streaming platform that uses Change Data Capture (CDC) to continuously capture and replicate data changes from source systems to target systems such as Kafka, Snowflake, BigQuery, and cloud databases with low latency.
