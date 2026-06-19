@@ -13,6 +13,11 @@
 - Captures INSERT, UPDATE, and DELETE operations from databases.
 - No need for full table refreshes.
 
+**Benefits:**
+1. Real-time replication
+2. Reduced network traffic
+3. Faster synchronization
+
 2. **Real-Time Data Replication:**
 * Replicates data between:
 
@@ -152,8 +157,42 @@ INPUT FROM OracleStream;
 
 
 
-**Q: What is Striim?**
+#### Q1: What is Striim?
 **Answer:**
-Striim is a real-time data integration and streaming platform that uses Change Data Capture (CDC) to continuously capture and replicate data changes from source systems to target systems such as Kafka, Snowflake, BigQuery, and cloud databases with low latency.
+- Striim is a real-time data integration and streaming platform that uses Change Data Capture (CDC) to continuously capture and replicate data changes from source systems to target systems such as Kafka, Snowflake, BigQuery, and cloud databases with low latency.
 
-For a DevOps engineer, think of Striim as a tool that enables **real-time data pipelines**, similar to how Jenkins automates CI/CD pipelines.
+- For a DevOps engineer, think of Striim as a tool that enables **real-time data pipelines**, similar to how Jenkins automates CI/CD pipelines.
+
+#### Q2. What is CDC?
+- Change Data Capture captures INSERT, UPDATE, and DELETE operations from database transaction logs.
+
+#### Q3. What is TQL?
+- Tungsten Query Language, a SQL-like language used to create Striim applications, sources, streams, queries, and targets.
+
+#### Q4. What is a Continuous Query (CQ)?
+- A query that continuously processes streaming data in real time.
+
+#### Q5. What are common Striim targets?
+- Snowflake
+- Kafka
+- BigQuery
+- AWS S3
+- Databases
+
+#### Q6. What are Sources and Targets?
+1. Source = Data producer
+2. Target = Data consumer
+
+#### Q7 What is the use of Striim in a project?
+- Database migration
+- Data replication
+- Streaming analytics
+- Real-time reporting
+- Cloud migration
+
+Since you're learning GCP, Kafka, Snowflake, Kubernetes, and DevOps, Striim is mainly used in Data Engineering and Real-Time Data Pipelines, especially for:
+
+- Oracle → Kafka
+- Oracle → Snowflake
+- SQL Server → BigQuery
+- On-Prem → Cloud migrations.
