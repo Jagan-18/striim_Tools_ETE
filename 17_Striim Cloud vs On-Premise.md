@@ -1,4 +1,4 @@
-# Striim Cloud vs Striim Platform (On-Premise)
+# Striim Cloud vs Striim Platform (On-Premise):
 
 Striim can be deployed in two ways:
 
