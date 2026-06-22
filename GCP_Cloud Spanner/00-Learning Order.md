@@ -3,9 +3,9 @@
 
 Good approach. Since you are a DevOps Engineer and have **zero knowledge of Cloud Spanner**, don't start directly with architecture or SQL.
 
-Learn Cloud Spanner in the same way you learned Kubernetes, Terraform, or Jenkins.
+Learn Cloud Spanner in the same way you learned Kubernetes, Terraform, or CICD Tools like that.
 
-# Cloud Spanner Learning Roadmap (Beginner to Advanced)
+# Cloud Spanner Learning Roadmap (Beginner to Advanced):
 
 ## Phase 1: Foundation (Must Learn First)
 
@@ -448,12 +448,60 @@ Learn:
 21. CI/CD
 22. Production Support
 ```
+----
 
-You are currently at **Topic 1: Introduction to Cloud Spanner**.
+What You Should Learn Next
 
-Once you understand Topic 1 completely, ask:
+After this introduction, learn in this order:
 
-**"Topic 2 - Cloud Spanner Architecture (Beginner to Advanced with real-time examples)"**
+Module 1
 
-and I'll explain it end-to-end with diagrams, migration examples (Oracle → Striim → Cloud Spanner), and DevOps responsibilities.
+Cloud Spanner Architecture
+
+Module 2
+
+Instances and Nodes
+
+Module 3
+
+Databases and Tables
+
+Module 4
+
+Primary Keys and Schema Design
+
+Module 5
+
+Cloud Spanner SQL
+
+Module 6
+
+IAM and Security
+
+Module 7
+
+Backup and Restore
+
+Module 8
+
+Monitoring and Logging
+
+Module 9
+
+Performance Tuning
+
+Module 10
+
+Oracle to Cloud Spanner Migration
+
+Module 11
+
+Striim Integration with Cloud Spanner
+
+Module 12
+
+DevOps Activities for Cloud Spanner
+
+-----------
+
 
