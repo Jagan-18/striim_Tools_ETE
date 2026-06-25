@@ -1,5 +1,33 @@
-# Cloud Spanner:
+# DevOps Learning Roadmap for Oracle → Striim → Cloud Spanner:
 
+                    Oracle Database
+                          │
+                          ▼
+                  Oracle Redo Logs
+                          │
+                          ▼
+                       Striim
+                 (CDC Pipeline)
+                          │
+          ┌───────────────┴───────────────┐
+          │                               │
+   Monitoring & Logs               Error Handling
+          │                               │
+          ▼                               ▼
+                  Cloud Spanner
+                          │
+                          ▼
+                    Application
+                          │
+                          ▼
+                   Monitoring Tools
+             (Datadog + Cloud Monitoring)
+                          │
+                          ▼
+                 DevOps Engineer
+
+# Cloud Spanner:
+---
 ## Module 1: Introduction to Cloud Spanner
 
 ### 1.1 Introduction
