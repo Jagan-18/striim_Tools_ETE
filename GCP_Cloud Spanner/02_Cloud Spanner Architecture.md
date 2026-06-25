@@ -628,7 +628,6 @@ Best for:
 * Applications serving one geographic region.
 
 ---
-
 ### Multi-Regional
 
 ```text
@@ -738,16 +737,4 @@ Typical responsibilities include:
 * Enable monitoring and alerting before production go-live.
 
 ---
-# Module Summary
 
-After this module, you should understand:
-
-* What Cloud Spanner Architecture is.
-* The difference between the Compute Layer and the Storage Layer.
-* How a request flows through Cloud Spanner.
-* Why replication is important.
-* The difference between regional and multi-regional deployments.
-* How Cloud Spanner fits into your Oracle → Striim → Cloud Spanner migration.
-* What a DevOps Engineer typically manages around Cloud Spanner.
-
----
