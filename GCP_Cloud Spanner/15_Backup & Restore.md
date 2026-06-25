@@ -1,34 +1,5 @@
 # Topic 15: Cloud Spanner Backup & Restore (Complete End-to-End Professional Guide)
 
----
-
-# Table of Contents
-
-We will learn:
-
-1. What is Backup?
-2. Why Backup is Required?
-3. What is Restore?
-4. Why Restore is Required?
-5. Backup Architecture
-6. Backup Lifecycle
-7. Backup Types
-8. Restore Process
-9. Point-in-Time Recovery (PITR)
-10. Backup Scheduling
-11. Encryption
-12. IAM Security
-13. Monitoring Backups
-14. Oracle → Striim → Cloud Spanner Example
-15. DevOps Responsibilities
-16. Production Scenarios
-17. Troubleshooting
-18. Best Practices
-19. Common Mistakes
-20. Interview Questions
-
----
-
 # Chapter 1: What is Backup?
 
 ## Definition
